@@ -32,6 +32,10 @@ const Navbar = () => {
             <FontAwesomeIcon icon="phone" className="mr-2" />
             Contact
           </Link>
+          <Link to="/cart" className="hover:text-gray-300 flex items-center">
+            <FontAwesomeIcon icon="shopping-cart" className="mr-2" />
+            Cart
+          </Link>
           <Link to="/login" className="bg-white text-blue-600 px-4 py-2 rounded hover:bg-gray-200 flex items-center">
             <FontAwesomeIcon icon="user" className="mr-2" />
             Login
@@ -78,6 +82,10 @@ const Navbar = () => {
           <Link to="/contact" className="block hover:text-gray-300 flex items-center">
             <FontAwesomeIcon icon="phone" className="mr-2" />
             Contact
+          </Link>
+          <Link to="/cart" className="block hover:text-gray-300 flex items-center">
+            <FontAwesomeIcon icon="shopping-cart" className="mr-2" />
+            Cart
           </Link>
           <Link to="/login" className="block bg-white text-blue-600 px-4 py-2 rounded hover:bg-gray-200 flex items-center">
             <FontAwesomeIcon icon="user" className="mr-2" />

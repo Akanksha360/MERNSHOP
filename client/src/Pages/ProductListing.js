@@ -15,8 +15,8 @@ const ProductListingPage = () => {
   );
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-100 via-white to-purple-50">
-      <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-4xl">
+    <div className="min-h-screen w-[80vw] m-auto flex items-center justify-center bg-gradient-to-r from-purple-100 via-white to-purple-50">
+      <div className="bg-white rounded-lg shadow-lg p-8 w-full ">
         {/* Header */}
         <h1 className="text-3xl font-bold text-gray-800 text-center mb-6">Products</h1>
 

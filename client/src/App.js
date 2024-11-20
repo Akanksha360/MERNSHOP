@@ -9,6 +9,7 @@ import ProductListingPage from './Pages/ProductListing';
 import ContactUs from './Pages/ContactUs';
 import HomePage from './Pages/Home';
 import AboutUs from './Pages/AboutUs';
+import ProductDetails from './Pages/ProductDetails';
 const App = () => {
   return (
     <AuthProvider>
@@ -21,6 +22,8 @@ const App = () => {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutUs/>} />
+            <Route path="/product/:id" element={<ProductDetails/>} />
+
 
 
           </Routes>
